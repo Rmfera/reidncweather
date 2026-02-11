@@ -11,6 +11,7 @@ Este projeto foi desenvolvido com tecnologias puras (Vanilla), sem a necessidade
 *   **HTML5**: Estrutura da página e formulários.
 *   **CSS3**: Estilização e layout responsivo.
 *   **JavaScript (ES6+)**: Lógica de consumo de APIs, manipulação do DOM e integração.
+*   **NETLIFY**: Este projeto está hospedado na NETLIFY no link: https://reidncweather.netlify.app/
 
 ## 🔌 APIs Consumidas
 
