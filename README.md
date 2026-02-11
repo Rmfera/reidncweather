@@ -2,7 +2,7 @@ Link do site: https://reidncweather.netlify.app/
 Link da planilha: https://docs.google.com/spreadsheets/d/1aMBbJGjf1XRzTjfxfYJeX8ACKvFkDpbAjx3XprMAzRE/edit?usp=sharing
 # 🌦️ DncWeather - Busca de Endereço e Clima
 
-Uma aplicação front-end simples e eficiente que permite ao usuário consultar informações de endereço via CEP e a previsão do tempo atual por coordenadas geográficas, mostrando as informações do CEP e a temperatura com base na Latitude e Longitude fornecidos e também salvando os dados de consulta em uma planilha externa.
+Uma aplicação Front-End simples e eficiente que permite ao usuário consultar informações de endereço via CEP e a previsão do tempo atual por coordenadas geográficas, mostrando as informações do CEP e a temperatura com base na Latitude e Longitude fornecidos e também salvando os dados de consulta em uma planilha externa.
 
 ## 🚀 Tecnologias Utilizadas
 
