@@ -1,13 +1,16 @@
 * {
     margin: 0px;
     padding: 0px;
+    /* outline: 1px solid red !important; */
 }
 
 body {
+    padding: 0;
     margin-left: 0%;
     margin-right: 0%;
     font-family: Inter;
     background-color: #BABABA;
+    width: 100%;
 }
 
 .container {
@@ -17,6 +20,7 @@ body {
     grid-auto-columns: 1fr;
     align-items: center;
     background-color: #0C70F2;
+    width: 100%;
 }
 
 h1 {
@@ -29,10 +33,6 @@ h1 {
     padding: 20px 20px 20px 0px;
     margin-bottom: 0px;
     max-width: 100%;
-}
-
-label {
-    margin: 30px;
 }
 
 
@@ -89,21 +89,19 @@ a {
 }
 
 #tempo-endereco {
-    margin-left: 5%;
+    /* margin-left: 5%; */
     align-items: center;
     background-color: #BABABA;
     display: flex;
     justify-content: space-around;
-
 }
 
 #form {
     margin-left: 20%;
     margin-right: 20%;
-
     background-color: white;
     border-radius: 30px;
-    padding: 50px;
+    padding: 100px;
 }
 
 .form-partes {
@@ -183,15 +181,12 @@ button {
 }
 
 button:hover {
-
-    /* color: #0C70F2E5; */
     transform: translateY(-7px);
     box-shadow: 0px 15px 20px #0C70F2E5;
     transition-duration: 0.5s;
 }
 
 .botao_eliptico {
-
     cursor: pointer;
     display: flex;
     text-align: center;
@@ -255,56 +250,40 @@ input:hover {
     color: #FFFFFF;
 }
 
-#resp_label {
-    margin-left: 10%;
-    margin-right: 10%;
+#resp_label.container,
+#resp_paragrafo.container {
+    margin: 0;
+    padding: 0;
+    margin-left: 5%;
+    margin-right: 5%;   
     height: 50px;
-    padding-left: 30px;
-    padding-right: 30px;
     padding-top: 30px;
     padding-bottom: 10px;
     display: flex;
-    text-align: center;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
     font-family: Inter;
     font-size: 20px;
     font-weight: 800;
     line-height: 24.2px;
     color: #FFFFFF;
-    justify-content: space-between;
+    justify-content: space-around;
+    width: 90%;
 }
 
-#resp_paragrafo {
-    margin-left: 10%;
-    margin-right: 10%;
-    height: 50px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 30px;
-    padding-bottom: 10px;
-    display: flex;
-    text-align: center;
+#resp_label.container {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+#resp_paragrafo.container {
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 800;
-    line-height: 24.2px;
     color: #1F1F1F;
-    justify-content: space-between;
     background: #FFFFFF;
 }
 
 
 
 @media screen and (max-width: 1200px) {
-    .container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-
     h1 {
         text-align: left;
         font-size: 20px;
@@ -344,12 +323,6 @@ input:hover {
         width: 150px;
     }
 
-    .rodape {
-        flex-wrap: wrap;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
     #resposta {
         width: 90%;
     }
@@ -358,30 +331,19 @@ input:hover {
     label,
     #texto_rodape {
         font-size: 14px;
+        padding-left: 1px;
     }
 
     .input_adress,
     .input_tempe {
         margin: 1px;
-
     }
-
-    #resp_label,
-    #resp_paragrafo {
-        width: 85%;
-        flex-wrap: wrap;
-        height: auto;
-        padding-left: 1px;
-        padding-bottom: 15px;
-        text-align: left;
-    }
-
 
     p,
     #rua,
     #bairro,
     #cidade {
-        font-size: 12px;
+        font-size: 14px;
         padding-left: 1px;
         border: nome;
     }
